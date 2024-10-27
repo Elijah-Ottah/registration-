@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="RegistrationFrom" class="=from">
+            <h2>Regristration<hr></h2>
+
+                <h3>Personal Information</h3>   
+                <label for="fullname">firstname,middlename,surname</label>
+                    <input type="text" id="fullname" name="fullname" required>    
+
+                <label for="regEmail">Password:</label>
+                    <input type="Email" id="regEmail" name="regEmail" required>
+                
+                <label for="regnumber">Phone Number:</label>
+                    <input type="text" id="regnumber" name="regnumber" required>
+
+                <h3>Account details</h3>
+                <label for="regUsername">Username:</label>
+                    <input type="text" id="regUsername" name="regUsername" required>                    
+
+                <label for="regPassword">Password:</label>
+                    <input type="password" id="regPassword" name="regPassword" required>
+
+                <h3>Booking Preferences</h3>
+                <label>single</label>
+                <input type="radio" name="room type" value="single" required>
+                <label>double</label>
+                <input type="radio" name="room type" value="double" required>   
+                <label>suite</label>
+                <input type="radio" name="room type" value="submit" required>
+
+                <h3>Payment Information</h3>
+
+                <label for="regPreferred Payment">Preferred Payment:</label>
+                    <input type="text" id="regPreferred Payment" name="regPreferred Payment" placeholder="credit card,PayPal" required>
+
+                <label for="regCreditCardNumber">Credit Card Number:</label>
+                    <input type="text" id="regcreditCardNumber" name="regcreditCardNumber" required>
+                
+                <label for="regExpirationDate">Credit Expiration Date:</label>
+                    <input type="text" id="regExpirationDate" name="regExpirationDate" required>
+
+                <label for="regCVVcode">CVV code:</label>
+                    <input type="text" id="regCVVcode" name="regCVVcode" required>
+
+                <h3>Travel Details</Details></h3>
+                
+                <label for="regCheck-in">Check-in/Check-out:</label>
+                    <input type="text" id="regCheck-in" name="regCheck-in" placeholder="Check-in/Check-out" required>
+
+                <label for="regGuests Number">How many Guests will be staying:</label>
+                    <input type="text" id="regGuests Number" name="regGuests Number" required>
+
+                <label for="regVisit Purpose">Purpose of your your visit:</label>
+                    <input type="text" id="regVisit Purpose" name="regVisit Purpose" placeholder="Business, Leisure" required>
+
+
+
+                <button type="submit">Register</button>
+        </form>
+
+    </div>
+</body>
+</html>
